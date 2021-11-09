@@ -1,5 +1,10 @@
 import pandas as pd
 import ast
+from PIL import Image
+import requests
+from io import BytesIO
+import matplotlib.pyplot as plt
+
 
 def ordenadito(city,d0,d1,d2):
     """
@@ -19,10 +24,6 @@ def ordenadito(city,d0,d1,d2):
     return pd.DataFrame(diccio)
     
 
-from PIL import Image
-import requests
-from io import BytesIO
-
 def dibujar(tit):
     """
     dibuja una imagen a partir de un titulo
@@ -32,7 +33,6 @@ def dibujar(tit):
     img = Image.open(BytesIO(response.content))
     return img
 
-import matplotlib.pyplot as plt
 
 def dibu3(data):
     """
