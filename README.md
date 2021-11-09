@@ -2,6 +2,8 @@
 
 IronHack week3 proyect - Creating a pipeline
 
+![](https://i.pinimg.com/originals/5c/49/6a/5c496a85a3864c09c08eb5665ffaf495.jpg)
+
 ## Objetivo
 
 El objetivo de este proyecto es construir un ejecutable que cargue datos, los manipule y nos devuelva información de manera automática.
